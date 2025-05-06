@@ -1,7 +1,7 @@
-# LinoriaLib Documentation
+# LinoriaLib Fork Documentation
 
 LinoriaLib is a powerful UI library for creating customizable menus in Roblox. This documentation covers all features and functionality of the library based on the example script.
-
+DOCS BY MYE, CUSTOM LINORIA FORK WITH BETTER NOTIFS ALSO BY MYE!
 ## Table of Contents
 - [Getting Started](#getting-started)
 - [Windows](#windows)
@@ -33,11 +33,11 @@ LinoriaLib is a powerful UI library for creating customizable menus in Roblox. T
 To begin using LinoriaLib, you need to load the required scripts:
 
 ```lua
-local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/'
+local repo = 'https://raw.githubusercontent.com/myethg/ui/refs/heads/main/'
 
-local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
-local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
-local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
+local Library: any = loadstring(game:HttpGet(repo..'library.lua'))()
+local ThemeManager = loadstring(game:HttpGet(repo .. 'theme.lua'))()
+local SaveManager = loadstring(game:HttpGet(repo .. 'savemanager.lua'))()
 ```
 
 ## Windows
